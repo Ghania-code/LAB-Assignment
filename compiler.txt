@@ -1,0 +1,8 @@
+C:\Users\HC\Desktop\Lab assignment>javac OverLoadDemo.java
+OverLoadDemo.java:19: error: method enroll(String) is already defined in class OverLoadDemo
+    int enroll(String courseCode) {
+        ^
+1 error
+
+It consists of the method name and parameter list (types, number, and order). Return type is NOT part of the signature.
+The return type cannot distinguish overloads because when a method is called without assigning its return value to a variable, the compiler has no way of knowing which method to execute based on parameter list alone.
