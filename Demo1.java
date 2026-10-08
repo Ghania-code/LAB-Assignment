@@ -1,21 +1,21 @@
 public class Demo1{
-public static void main(String args[]){
+    public static void main(String args[]) {
+        Product1 P1 = new Product1("Sumavia", 4200.0, 2);
+        System.out.println("Information of first object:");
+        P1.displayProduct();
 
-Person4 p1=new Person4("Ghania", "SP26-BAI-056","7-7-2026","SP26-BAI-056@cuilahore.edu.pk","lahore");
-Person4 p2=new Person4("Sumavia", "SP26-BAI-055","2-2-2026","SP26-BAI-056@cuilahore.edu.pk");
+        Product1 P2 = new Product1("Shazeena", 4500.0, 3);
+        System.out.println("Information of second object:");
+        P2.displayProduct();
 
-System.out.println("Attributes of first object:");
-p1.display();
-System.out.println("");
-System.out.println("Attributes of second object:");
-p2.notcitydisplay();
+        Product1 P3 = new Product1("Sohaib", 9000.0, 7);
+        System.out.println("Information of Third object:");
+        P3.displayProduct();
 
+        Product1 P4 = new Product1("Haseeb", 2000.0, 6);
+        System.out.println("Information of Fourth object:");
+        P4.displayProduct();
 
-
-
-
-
-
-}
-
+        Product1.displayMaxMin();
+    }
 }
